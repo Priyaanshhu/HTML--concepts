@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <!-- Make a sign up form using input type: radio, submit, text, and having a select and textarea -->
+  
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Exercise - 3</title>
+</head>
+
+<body>
+  <h2>Sign Up Form</h2>
+  <form>
+    <input type="text" placeholder="First Name"><br><br>
+    <input type="text" placeholder="Last Name"><br><br>
+    <input type="email" placeholder="Email"><br><br>
+    <input type="password" placeholder="Password"><br><br>
+    
+    <!-- Radio button-->
+    <p>Select Gender</p>
+    <label for="male">Male :</label>
+    <input type="radio" name="gender" id="male"><br>
+    <label for="female">Female : </label>
+    <input type="radio" name="gender" id="female"><br>
+    <label for="other">Other : </label>
+    <input type="radio" name="gender" id="other"><br><br>
+    
+    <!--Dropdown list-->
+    <label for="country">Country :</label>
+    <select id="country">
+      <option value="india">India</option>
+      <option value="butan">Butan</option>
+      <option value="nepal">Nepal</option>
+      <option value="china">China</option>
+      <option value="russia">Russia</option>
+    </select>
+    
+    <p>Write about Yourself Something :</p>
+    <textarea cols="30" rows="10" placeholder="Type here...." ></textarea><br>
+    
+    <input type="submit" value="Sign Up">
+    </form>
+  
+</body>
+</html>
